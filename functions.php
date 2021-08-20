@@ -7,7 +7,7 @@ if ( ! function_exists( 'valakia_get_specified_content' ) ) {
 				'post' => '',
 			),
 			$atts,
-			'vuositeema'
+			'show-content'
 		);
 
 		$valakia_blog_id = absint( $atts['blog'] );
